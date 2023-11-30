@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M.Khotulev</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+</head>
+
+
+<body class="bg-dark text-light">
+    <header class="bg-light">
+        <div class="collapse" id="header-hidden">
+            <div class="container text-muted py-3">
+                <div class="row">
+                    <div class="col-md-8 col-12">
+                        <h4>About Me</h4>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In perspiciatis nobis commodi voluptas! Praesentium ipsum illo unde ex cupiditate sint veritatis nam animi saepe eveniet, voluptates veniam at, 
+                        rem minima?</p>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <h4>Contact Me</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="https://www.instagram.com/myron_khotulev/" target="_blank" class="" style="text-decoration: none; color: green;">Instagram</a></li>
+                            <li><a href="#" class="" style="text-decoration: none; color: green;">YouTube</a></li>
+                            <li><a href="#" class="" style="text-decoration: none; color: green;">Pinterest</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar">
+            <div class="container d-flex justify-content-between">
+                <a href="#" class="fw-bold navbar-brand">M.Khotulev</a>
+                <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#header-hidden">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+
+<!-- Portfolio (cards) -->
+    <div class="px-100 py-5 bg-success">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-7">
+                    <h1 class="display-3">Ich mag Tier</h1>
+                    <p class="lead my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio molestiae 
+                       deserunt dolores quis porro et.
+                       <a href="#hidenObject" data-bs-toggle="collapse" class="btn btn-warning">Refresh</a>
+                       <button class="btn btn-outline-light" data-bs-toggle="collapse" data-bs-target="#hidenObject-2">free cookie</button>
+
+                       <div class="collapse" id="hidenObject">
+                        <div class="alert alert-danger mt-2">
+                            <p>Are you sure you want to do that?</p>
+                            <a href="#" onclick="refresh" class="btn btn-success">YES</a>
+                        </div>
+                       </div>
+
+                       <div class="collapse" id="hidenObject-2">
+                        <div class="alert alert-light mt-1">
+                            <p>🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪</p>
+                        </div>
+                       </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- 
+    To view -->
+    <div class="container">
+        <div class="modal fade" id="modal-photo-1">
+            <div class="modal-dialog">
+                <img src="imag/IMG_1846.jpg" alt="">
+                
+            </div>
+        </div>
+        <div class="modal fade" id="modal-photo-2">
+            <div class="modal-dialog">
+                <img src="imag/IMG_1841.jpg" alt="">
+                
+            </div>
+        </div>
+        <div class="modal fade" id="modal-photo-3">
+            <div class="modal-dialog">
+                <img src="imag/IMG_1913.jpg" alt="">
+                
+            </div>
+        </div>
+        <div class="modal fade" id="modal-photo-4">
+            <div class="modal-dialog">
+                <img src="imag/IMG_1966.jpg" alt="" class="center-4">>
+                
+            </div>
+        </div>
+        <div class="modal fade" id="modal-photo-5">
+            <div class="modal-dialog">
+                <img src="imag/IMG_1979.jpg" alt="" class="center-5">
+                
+            </div>
+        </div>
+        <div class="modal fade" id="modal-photo-6">
+            <div class="modal-dialog">
+                <img src="imag/IMG_1996.jpg" alt="" class="center-6">>
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h1>Alles über mich</h1>
+        <div class="d-flex justify-content-between flex-wrap">
+            <div class="card mb-4 bg-success">
+                <img src="imag/IMG_1996.jpg" class="card-img-top">
+                <div class="card-body">
+                    <p class="card-text" style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repudiandae cumque, 
+                        laborum deleniti nostrum ducimus.
+                        <div class="d-flex justify-content-between align-items-center flex-wrap">
+                            <div class="btn-group btn-group-sm me-3">
+                                <button class="btn btn-link" style="text-decoration: none; color: white;" data-bs-toggle="modal" data-bs-target="#modal-photo-6">VIEW</button>
+                                
+                            </div>
+                            <span class="text" style="color: white;">19.11.2023</span>
+                        </div>
+                    </p>
+                </div>
+            </div>
+            <div class="card mb-4 bg-success">
+                <img src="imag/IMG_1979.jpg" class="card-img-top">
+                <div class="card-body">
+                    <p class="card-text" style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repudiandae cumque, 
+                        laborum deleniti nostrum ducimus.
+                        <div class="d-flex justify-content-between align-items-center flex-wrap">
+                            <div class="btn-group btn-group-sm me-3">
+                                <button class="btn btn-link" style="text-decoration: none; color: white;" data-bs-toggle="modal" data-bs-target="#modal-photo-5">VIEW</button>
+                                
+                            </div>
+                            <span class="text" style="color: white;">19.11.2023</span>
+                        </div>
+                    </p>
+                </div>
+            </div>
+            <div class="card mb-4 bg-success">
+                <img src="imag/IMG_1966.jpg" class="card-img-top">
+                <div class="card-body">
+                    <p class="card-text" style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repudiandae cumque, 
+                        laborum deleniti nostrum ducimus.
+                        <div class="d-flex justify-content-between align-items-center flex-wrap">
+                            <div class="btn-group btn-group-sm me-3">
+                                <button class="btn btn-link" style="text-decoration: none; color: white;" data-bs-toggle="modal" data-bs-target="#modal-photo-4">VIEW</button>
+                                
+                            </div>
+                            <span class="text" style="color: white;">19.11.2023</span>
+                        </div>
+                    </p>
+                </div>
+            </div>
+            <div class="card mb-4 bg-success">
+                <img src="imag/IMG_1846.jpg" class="card-img-top">
+                <div class="card-body">
+                    <p class="card-text" style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repudiandae cumque, 
+                        laborum deleniti nostrum ducimus.
+                        <div class="d-flex justify-content-between align-items-center flex-wrap">
+                            <div class="btn-group btn-group-sm me-3">
+                                <button class="btn btn-link" style="text-decoration: none; color: white;" data-bs-toggle="modal" data-bs-target="#modal-photo-1">VIEW</button>
+                                
+                            </div>
+                            <span class="text" style="color: white;">19.11.2023</span>
+                        </div>
+                    </p>
+                </div>
+            </div>
+            <div class="card mb-4 bg-success">
+                <img src="imag/IMG_1913.jpg" class="card-img-top">
+                <div class="card-body">
+                    <p class="card-text" style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repudiandae cumque, 
+                        laborum deleniti nostrum ducimus.
+                        <div class="d-flex justify-content-between align-items-center flex-wrap">
+                            <div class="btn-group btn-group-sm me-3">
+                                <button class="btn btn-link" style="text-decoration: none; color: white;" data-bs-toggle="modal" data-bs-target="#modal-photo-3">VIEW</button>
+                                
+                            </div>
+                            <span class="text" style="color: white;">19.11.2023</span>
+                        </div>
+                    </p>
+                </div>
+            </div>
+            <div class="card mb-4 bg-success">
+                <img src="imag/IMG_1841.jpg" class="card-img-top">
+                <div class="card-body">
+                    <p class="card-text" style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati repudiandae cumque, 
+                        laborum deleniti nostrum ducimus.
+                        <div class="d-flex justify-content-between align-items-center flex-wrap">
+                            <div class="btn-group btn-group-sm me-3">
+                                <button class="btn btn-link" style="text-decoration: none; color: white;" data-bs-toggle="modal" data-bs-target="#modal-photo-2">VIEW</button>
+                                
+                            </div>
+                            <span class="text" style="color: white;">19.11.2023</span>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-warning text-center py-4 text-dark">
+        <p>Louding... &copy;</p>
+        <p><a href="#" class="text-muted" style="text-decoration: none;">🔍</a></p>
+    </footer>
+    
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+
+</html>
